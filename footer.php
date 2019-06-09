@@ -13,9 +13,9 @@
 <!--end footer -->
 
 
-<script src="js/jquery-1.9.1.min.js" ></script>
-<script src="js/bootstrap.min.js" ></script>
-<script src="js/custom.js" ></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tms-0.4.1.js"></script>
 
 </body>
 </html>

@@ -15,9 +15,43 @@
      <link href="css/rtl.css" rel="stylesheet">
 
     <link href="css/media.css" rel="stylesheet">
+
+      <script src="js/jquery-1.7.min.js"></script>
+      <script src="js/jquery.easing.1.3.js"></script>
+      <script src="js/tms-0.4.1.js"></script>
+      <script>
+          $(document).ready(function(){
+              $('.slider')._TMS({
+                  show:0,
+                  pauseOnHover:true,
+                  prevBu:'.prev',
+                  nextBu:'.next',
+                  playBu:false,
+                  duration:500,
+                  preset:'fade',
+                  pagination:true,//'.pagination',true,'<ul></ul>'
+                  pagNums:false,
+                  slideshow:8000,
+                  numStatus:false,
+                  banners:'fromBottom',// fromLeft, fromRight, fromTop, fromBottom
+                  waitBannerAnimation:false,
+                  progressBar:false
+              })
+
+          })
+          $(function(){
+              if($(window).width() <= 1200)
+              {
+                  $("#slider .prev").css("left", "55px")
+                  $("#slider .next").css("right", "55px")
+              }
+          })
+      </script>
 <!-- 8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
+
+
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
