@@ -566,3 +566,81 @@ textarea.form-control {
 .slinks a i {
 	font-size: 30px;
 }
+
+/*----------------- start ajax -----------------------------*/
+.taps-content {
+ overflow: hidden;
+}
+
+.taps-content .nav-tabs {
+    float: right;
+    width: 100%;
+}
+
+.taps-content .nav-tabs li {
+	float: right;
+}
+
+.taps-content .nav-tabs li a {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.item-content .tab-content > div  {
+	padding: 20px;
+	background-color: #ffffff;
+}
+.item-content .tab-content > div table tr {
+	background-color: #eeeeee;
+}
+
+.item-content .tab-content > div .row > div  {
+    margin-bottom: 20px;
+    border:  1px solid #ededed;
+
+}
+
+.item-content .tab-content > div .row > div  img{
+ text-align: center;
+}
+
+
+/************************************accordian *********/
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------- start ajax -----------------------------*/
